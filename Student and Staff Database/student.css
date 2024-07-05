@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.header{
+    background-color: #A2B1E7;
+    height: 130px;
+}
+
+.clg-logo{
+    width: 110px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.std-photo{
+    margin-top: 20px;
+    width: 300px;
+    border: solid 4px #4F6ED6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.basic-details{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: solid 4px #4F6ED6;
+    width: 500px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.details-svg{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+.details{
+    margin-bottom: 15px;
+}
+
+.basic-details p{
+    color: #000000;
+    margin-left: 15%;
+    font-size: 22px;
+    margin-bottom: -10px;
+}
+
+.overall-det-left p{
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.overall-det-right p{
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.sub-with-value{
+    display: grid;
+    grid-template-columns: 250px 400px;
+    background-color: #A2B1E7;
+    height: 60px;
+}
+
+.sub-with-value-1{
+    display: grid;
+    grid-template-columns: 250px 400px;
+    height: 60px;
+}
+
+.overall-det{
+    display: flex;
+    margin-top: 20px;
+    /* margin-left: 150px; */
+    justify-content: center;
+}
+
+.overall-det-left {
+    margin-right: 5px;
+}
